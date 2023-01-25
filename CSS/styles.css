@@ -165,12 +165,14 @@ img {max-width: 100%;}
 #Nosotros {
     display: flex;
     justify-content: center;
+    text-align: center;
     font-size: 1.3rem;
     font-family: 'raleway', sans-serif;
     font-weight: lighter;
     display: flex;
     text-align:left
-    
+    border solid 5px #154360;
+
 }
 
 /*Estilo de las cards*/
@@ -253,8 +255,7 @@ img {max-width: 100%;}
 }
 @media screen and (max-width: 768px) {
     #footer {
-        display: grid;
-        justify-content: center;
+        display: grid
     }
     
 }
