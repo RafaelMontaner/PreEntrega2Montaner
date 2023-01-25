@@ -1,0 +1,215 @@
+/* GLOBALES */
+
+.div {  
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.LOGO {
+    max-width: 100%;
+    width: 160px;
+    height: 120px;
+    float: left;
+
+}
+.header h1 {
+    text-align: center;
+    
+    color: black;
+    font-size: 3.2rem;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif
+    
+}
+.header span {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.4rem;
+    color: #154360;
+}
+.NavegacionMenu  {
+    text-align: center;
+    background-color: #154360
+    
+    }
+.NavegacionMenu li  {
+    display: inline;
+    margin-right: 1.8rem;
+    font-size: 1.8rem;
+}
+.NavegacionMenu a {
+    color: white;
+    font-family: monospace
+    
+}
+
+img {max-width: 100%;}
+.card__imagen {width: 550px;}
+
+
+    }
+
+    #carouselExample {
+        text-align: center;
+        width: 1218px;
+        align-items: center
+        
+        ;
+    
+    }
+    .carousel-item img {
+        height: 700px;
+    }
+
+    .text {
+        text-align: center;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .contenedor {
+        color: black;
+        text-align: center;
+        display: flex;
+        justify-content: left;
+        align-items:center
+    }
+    .contenedor p{
+        font-size: 18px
+        ;
+    }
+
+    .img02 {
+        width: 600px;
+        height: 300px;
+    }
+
+
+
+    .h2subtitulo {
+        text-align: center;
+        font-family: 'raleway',sans-serif;
+        color: black;
+        font-weight: bolder;
+        font-size: 1.7rem;
+    }
+
+    .texto2 {
+        text-align: center;
+        color: black;
+        font-size: 1.1rem;
+        font-weight: lighter;
+        font-family: 'raleway', sans-serif
+    }
+
+.imgh2{
+    max-width: 100%;
+    width: 500px;
+    float: left;
+}
+#logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.texto3 {
+    font-family: 'raleway',sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    gap: 50px;
+}
+#Fondo {
+    font-family: 'raleway',sans-serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    background-size: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.Final {
+    margin: 5em;
+    font-family: 'raleway', sans-serif;
+    text-align: center;
+}
+
+.Final a     {
+    color: white; 
+    background-color: gold  ;
+    font-family: monospace;
+    font-size: 1.5rem;
+
+}
+
+.maps  {
+    color: black;
+    font-family: 'raleway', sans-serif;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+.divnos {
+    font-family: 'raleway',sans-serif;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+.imgnos {
+    width: 200px;
+
+}
+#Nosotros {
+    font-size: 1.3rem;
+    font-family: 'raleway', sans-serif;
+    font-weight: lighter;
+    display: flex;
+    text-align:left
+    
+    
+}
+
+/*Estilo de las cards*/
+#productos {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    gap: 5rem;
+}
+
+/*Codigo de #productos*/
+.card {
+    background-color: white;
+    padding: 3rem;
+    margin: 2rem 0;
+    width: 200px;
+    border: solid 5px #154360;
+    position: relative;
+}
+
+.card__oferta {
+    position: absolute;
+    top: 30px;
+    right: -50px;
+    background-color: green;
+}
+
+.card__imagen {
+    width: 200px;
+
+}
+
+.card__titulo {
+    margin: 1rem 0;
+}
