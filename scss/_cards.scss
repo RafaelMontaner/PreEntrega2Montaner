@@ -1,0 +1,61 @@
+/*Estilo de las cards*/
+#productos {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    gap: 5rem;
+}
+
+/*Codigo de #productos*/
+.card {
+    
+    background-color: white;
+    padding: 3rem;
+    margin: 2rem 0;
+    width: 200px;
+    border: solid 5px #154360;
+    position: relative;
+}
+
+.card__oferta {
+    position: absolute;
+    top: 30px;
+    right: -50px;
+    background-color: green;
+}
+
+.card__imagen {
+    width: 200px;
+
+}
+
+.card__titulo {
+    margin: 1rem 0;
+}
+
+.Trabajos {
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.cardindex {
+    background-color: white;
+    padding: 3rem;
+    margin: 2rem 0;
+    width: 350px;
+    border: solid 5px #154360;
+    position: relative;
+    height: 400px;
+    justify-content: center
+}
+.card-img-top {
+    height: 175px;
+    width: 250px;
+}

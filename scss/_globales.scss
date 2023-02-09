@@ -1,0 +1,138 @@
+
+.LOGO {
+        max-width: 100%;
+        width: 160px;
+        height: 120px;
+        float: left;
+}
+.div {  
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header h1 {
+    text-align: center;
+    
+    color: black;
+    font-size: 3.2rem;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif
+    
+}
+.header span {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.4rem;
+    color: #154360;
+}
+.NavegacionMenu  {
+    text-align: center;
+    background-color: #154360
+    
+    }
+.NavegacionMenu li  {
+    display: inline;
+    margin-right: 1.8rem;
+    font-size: 1.8rem;
+}
+.NavegacionMenu a {
+    color: white;
+    font-family: monospace
+    
+}
+
+#footer{
+    border: 5px;
+    justify-content: center;
+    width: auto;
+    margin: auto;
+    text-align: justify;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #154360;
+    color: white;
+    margin-top: 175px   ;
+}
+.footer2 {
+    display: flex;
+    text-align: justify;
+    justify-content: space-evenly
+    
+    
+    
+}  
+
+@media screen and (max-width: 768px) {
+    .contenedor {
+    display: grid;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card__oferta {
+        display: flex;
+        justify-content: space-evenly;
+        right: 5px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .maps {
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    #footer {
+        display: grid
+    }
+    
+}
+.linkformu {
+    margin-top: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 
+    repeat(4, 180px);
+    grid-template-columns: 
+    repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.item:nth-child(1) {
+    grid-row: 1 / 4;
+}
+
+.item:nth-child(2) {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+}
+
+.item:nth-child(3) {
+    grid-column: 3 / 4;
+    grid-row: 3 / 5;
+}
+
+.item:nth-child(4) {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.item:nth-child(5) {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+}
+  /* styling code */
+
+.grid {
+    margin:60px auto;
+    max-width:1000px;
+}
+.grid > .item {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

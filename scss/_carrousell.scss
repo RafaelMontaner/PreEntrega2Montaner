@@ -1,0 +1,32 @@
+#carouselExample {
+    text-align: center;
+    width: 1348px;
+    align-items: center; 
+}
+.carousel-item img {
+    height: 700px;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contenedor {
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items:center
+}
+.contenedor p{
+    font-size: 18px
+    ;
+}
+.img02 {
+    width: 600px;
+    height: 300px;
+}
