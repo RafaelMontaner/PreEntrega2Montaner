@@ -1,0 +1,55 @@
+.h2subtitulo {
+    text-align: center;
+    font-family: 'raleway',sans-serif;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+
+.texto2 {
+    text-align: center;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    font-family: 'raleway', sans-serif
+}
+
+.imgh2{
+max-width: 100%;
+width: 500px;
+float: left;
+}
+#logos {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly
+}
+
+.texto3 {
+font-family: 'raleway',sans-serif;
+font-size: 1.5rem;
+text-align: center;
+gap: 50px;
+}
+#Fondo {
+font-family: 'raleway',sans-serif;
+font-size: 1.2rem;
+font-weight: lighter;
+background-size: 450px;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: scroll;
+}
+.Final {
+    margin: 5em;
+    font-family: 'raleway', sans-serif;
+    text-align: center;
+}
+
+.Final a     {
+    color: white; 
+    background-color: #154360  ;
+    font-family: monospace;
+    font-size: 1.5rem;
+
+}

@@ -1,0 +1,40 @@
+.textg {
+    color: black;
+    font-family: 'raleway', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.textn{
+    @extend .textg;
+}
+.textc{
+    @extend .textg;
+}
+.textu{
+    @extend .textg;
+}
+.maps {
+    text-align: center;
+    flex-wrap: wrap;
+}
+@mixin h3 {
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #154360;
+    color: white;
+    border: solid
+}
+
+.h3g {
+    @include h3;
+    border-radius: 5px;
+    font-family: 'raleway', sans-serif;
+    font-size: 1rem
+    
+}
+.h3 {
+    @include h3;
+}

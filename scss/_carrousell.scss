@@ -1,0 +1,134 @@
+
+.text {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contenedor {
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items:center
+}
+.contenedor p{
+    font-size: 18px
+    ;
+}
+.img02 {
+    width: 600px;
+    height: 300px;
+}
+
+@media (max-width:1440px) {
+    #carouselExample {
+        text-align: center;
+        width: 1440px;
+        align-items: center; 
+    }
+    .img02 {
+        width: 1440px;
+    }
+    .contenedor {
+        display: grid;
+    }
+    .cardindex {
+        padding: 0px;
+        height: 350px;
+        text-align: center;
+        
+}
+}
+#carouselExample {
+    text-align: center;
+    width: 1225px;
+    align-items: center; 
+}
+.carousel-item img {
+    height: 1225px;
+}
+.img02 {
+    width: 1225px;
+}
+@media (max-width:1024px) {
+    #carouselExample {
+        text-align: center;
+        width: 1024px;
+        align-items: center; 
+    }
+    .img02 {
+        width: 1024px;
+    }
+    .contenedor {
+        display: grid;
+    }
+    .cardindex {
+        right: 35px;
+        width: 260px;
+        padding: 0px;
+        height: 350px;
+}
+}
+@media (max-width:948px) {
+    #carouselExample {
+        text-align: center;
+        width: 948px;
+        align-items: center; 
+    }
+    .img02 {
+        width: 948px;
+    }
+    .contenedor {
+        display: grid;
+    }
+    .cardindex {
+        right: 35px;
+        width: 260px;
+        padding: 0px;
+        height: 350px;
+}
+}
+@media (max-width:768px) {
+    #carouselExample {
+        text-align: center;
+        width: 768px;
+        align-items: center; 
+    }
+    .img02 {
+        width: 768px;
+    }
+    .contenedor {
+        display: grid;
+    }
+    .cardindex {
+        right: 50px;
+        width: 260px;
+        padding: 0px;
+        margin: 0px;
+        height: 350px;
+}
+}
+
+@media (max-width:320px) {
+    #carouselExample {
+        text-align: center;
+        width: 320px;
+        align-items: center; 
+    }
+    .img02 {
+        width: 320px;
+    }
+    .contenedor {
+        display: grid;
+    }
+    .cardindex {
+        right: 20px;
+        width: 260px;
+        padding: 0px;
+        margin: 0px;
+        height: 350px;
+}
+}
