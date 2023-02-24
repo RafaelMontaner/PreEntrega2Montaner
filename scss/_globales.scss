@@ -27,7 +27,11 @@
 }
 .NavegacionMenu  {
     text-align: center;
+<<<<<<< HEAD
     background-color:  #154360
+=======
+    background-color: #154360
+>>>>>>> 90d8d7604facfd6ce8d630b84d0c8a2e96eb5ad6
     
     }
 .NavegacionMenu li  {
@@ -37,7 +41,11 @@
 }
 .NavegacionMenu a {
     color: white;
+<<<<<<< HEAD
     font-family: 'Raleway', sans-serif;
+=======
+    font-family: monospace
+>>>>>>> 90d8d7604facfd6ce8d630b84d0c8a2e96eb5ad6
     
 }
 
@@ -51,9 +59,28 @@
     justify-content: space-evenly;
     background-color: #154360;
     color: white;
+<<<<<<< HEAD
     margin-top: 275px   ;
 }
 
+=======
+    margin-top: 175px   ;
+}
+.footer2 {
+    display: flex;
+    text-align: justify;
+    justify-content: space-evenly
+    
+    
+    
+}  
+
+@media screen and (max-width: 768px) {
+    .contenedor {
+    display: grid;
+    }
+}
+>>>>>>> 90d8d7604facfd6ce8d630b84d0c8a2e96eb5ad6
 
 @media screen and (max-width: 768px) {
     .card__oferta {
